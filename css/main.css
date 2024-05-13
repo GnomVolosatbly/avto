@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Oswald:wght@200..700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sofia+Sans+Semi+Condensed:wght@500&display=swap');
+
+* {
+    font-family: "Scada", sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #ff6767;
+}
+
+ul.nav {
+    height: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: auto 1rem;
+}
+
+ul.nav > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+ul.nav > li > a:hover {
+    color: #66ffac;
+}
+
+.container {
+    height: calc(100vh - 60px);
+    max-height: calc(100vh - 60px);
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    max-height: 20vh;
+    overflow: hidden;
+}
+
+.img-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    margin-top: 1rem;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 60vw;
+    padding: 0 20vw;
+}
+
+.info {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.info_ {
+    width: 100%;
+}
+
+.info > img {
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    margin: 1rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text-info {
+    border-left: 5px solid #ff6767;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+#info-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 28px;
+    width: 100%;
+}
+
+#info-span {
+    border-left: 5px solid #ff6767;
+    padding-left: 0.5rem;
+}
+
+.menu-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0.5rem 0.5rem;
+    padding: 0.1rem;
+
+    outline: 2px solid #ff6767;
+    transition: all 0.2s ease-in-out;
+    background-color: #ff6767;
+}
+
+.menu-element:hover {
+    cursor: pointer;
+    outline: 2px solid black;
+    font-size: 18px;
+}
+
+.menu-text {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ff6767;
+    display: grid;
+    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+    height: 20vh;
+    position: relative;
+    margin-top: 2rem;
+    bottom: 0;
+}
+
+ul.ulfooter {
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+ul.ulfooter > li:hover {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.lititle {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.images {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 12.5% 15% 15% 15% 15% 15% 12.5%;
+}
+
+.image-block {
+    width: 100%;
+    text-align: center;
+}
+
+.image-block > img {
+    height: 100px;
+}
+
+#main-title, #submain-title {
+    text-align: center;
+}
+
+.users-block {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+}
+
+.user {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.work-info {
+    border-left: 5px solid #ff6767;
+    padding-left: 0.5rem;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.user-data {
+    display: grid;
+    font-size: 24px;
+    grid-template-columns: 50% 50%;
+    margin-left: 1rem;
+}
+
+.username {
+    text-align: center;
+}
+
+.user-image {
+    text-align: end;
+    margin-right: 1rem;
+}
+
+.user-image > img {
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.data-type {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.get-work-block {
+    text-align: center;
+}
+
+#get-work-button {
+    padding: 0.4rem 2rem;
+    background-color: #ff6767;
+    color: white;
+    font-size: 20px;
+    border: none;
+    transition: all 0.4s ease-in-out;
+}
+
+#get-work-button:hover {
+    cursor: pointer;
+    padding: 0.6rem 3rem;
+}
+
+.menu-el {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-el > h1 {
+    text-align: center;
+}
+
+.menu-el > span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.detail-menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
