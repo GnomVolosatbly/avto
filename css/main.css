@@ -10,7 +10,7 @@ html, body {
 }
 
 .navbar {
-    position:realtive;
+    position:relative;
     height: 60px;
     background-color: #ff6767;
 }
