@@ -147,7 +147,7 @@ ul.nav > li > a:hover {
     background-color: #ff6767;
     display: grid;
     grid-template-columns: 12.5% 25% 25% 25% 12.5%;
-    height: 30vh;
+    height: 30%;
     position: relative;
     margin-top: 2rem;
     bottom: 0;
