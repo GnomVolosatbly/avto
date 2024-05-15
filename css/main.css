@@ -270,3 +270,6 @@ a {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+#logotype{
+    margin:0;
+}
