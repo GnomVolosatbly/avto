@@ -270,11 +270,7 @@ a {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-#logotype{
-    margin:0;
-    transform:translateX(-50%);
-    right:50%;
-}
 #samo_izobrashenije{
-    width:100%;
+    position:absolute;
+    height:70%;
 }
